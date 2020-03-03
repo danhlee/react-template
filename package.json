@@ -1,0 +1,14 @@
+{
+  "name": "react-template",
+  "version": "1.0.0",
+  "description": "Configuration template for single entry React app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "danhlee",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.0"
+  }
+}
