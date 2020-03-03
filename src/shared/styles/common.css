@@ -1,0 +1,27 @@
+/* Loader Style */
+.loader {
+  background-color: rgb(160, 229, 189);
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.loader .spinner {
+  background-color: rgb(160, 229, 189);
+  width: 120px;
+  height: 120px;
+  border: 16px solid rgb(224, 224, 90);
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  opacity: 0.9;
+  margin-top: -13em;
+}

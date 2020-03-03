@@ -1,6 +1,6 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const path = require('path')
 //const BundleAnalyzerPlugin = require('webpack-bundle-analyzer).BundleAnalyzerPlugin
 
 module.exports = {
@@ -11,7 +11,7 @@ module.exports = {
   output: {
     filename: '[name].bundle.js', // name of bundle files
     path: path.resolve(__dirname, 'dist', 'home'),
-    publicPath: '/home/', // URL context path to index.html page in dist 
+    publicPath: '/home/' // URL context path to index.html page in dist 
   },
   optimization: {
     splitChunks: {
@@ -26,7 +26,7 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: ['babel-loader', "eslint-loader"]
+        use: ['babel-loader', 'eslint-loader']
       },
       {
         test: /\.html$/,
