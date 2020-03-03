@@ -8,6 +8,6 @@ import '../shared/styles/common.css'
 
 ReactDOM.render(
   <Provider store={globalStore}>
-    <Router/>
+    <Router />
   </Provider>
 )
